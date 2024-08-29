@@ -9,9 +9,7 @@ export default function Home() {
   return (
     
       <div className={styles.container}>
-    
-      <CircleAnimation/>
-      <Navbar/>
+   
       <div  className={styles.Header}>
 
 
