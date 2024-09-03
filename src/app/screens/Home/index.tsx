@@ -4,6 +4,11 @@ import styles from "./index.module.css";
 import Image from "next/image";
 import robot from "../../assets/ROBOT.png";
 import vector from "../../assets/vectors.png";
+import vectorPink from "../../assets/VectorPink.png";
+import vectorOrange from "../../assets/VectorOrange.png";
+import vectorBlue from "../../assets/VectorBlue.png";
+import rightHand from "../../assets/RightHand.png";
+import leftHand from "../../assets/LeftHand.png";
 
 import ServiceCard from "../../components/ServiceCard";
 import { services, Service } from "../../data/servicesData";
@@ -36,7 +41,7 @@ export default function Home() {
       </div>
       <div className={styles.ServiceSection}>
         <h1 className={styles.ServiceTitle}>OUR SERVICES</h1>
-        <div className={styles.line}></div>
+        <div className={styles.lineService}></div>
         <p className={styles.ServicesDescription}>
           At Persista, we specialize in holistic digital transformations, from
           strategic planning to execution, ensuring that every project leverages
@@ -53,6 +58,70 @@ export default function Home() {
           ))}
         </div>
       </div>
+      <div className={styles.AboutSection}>
+        <h1 className={styles.AboutTitle}>ABOUT US</h1>
+        <div className={styles.lineAbout}></div>
+        <p className={styles.AboutDescription}>
+          Persista is a pioneering IT solutions provider, positioned at the
+          forefront of digital innovation. Our global team is dedicated to
+          delivering intelligent, customer-centric solutions that drive success.
+        </p>
+       
+          {/* <Image src={leftHand} alt="Logo" className={styles.leftHand} /> */}
+          <div className={styles.AboutUs}>
+            <div className={styles.About1}>
+              <Image
+                src={vectorPink}
+                alt="Logo"
+                className={styles.IconVector}
+              />
+              <p className={styles.Description}>Client-First Approach</p>
+            </div>
+            <div className={styles.About2}>
+              <Image
+                src={vectorOrange}
+                alt="Logo"
+                className={styles.IconVector}
+              />
+              <p className={styles.Description}>Cost Effectivness</p>
+            </div>
+            <div className={styles.About3}>
+              <Image
+                src={vectorBlue}
+                alt="Logo"
+                className={styles.IconVector}
+              />
+              <p className={styles.Description}>Hands-on Workshops</p>
+            </div>
+
+            <div className={styles.About11}>
+              <Image
+                src={vectorPink}
+                alt="Logo"
+                className={styles.IconVector}
+              />
+              <p className={styles.Description}>The Agile Way</p>
+            </div>
+            <div className={styles.About2}>
+              <Image
+                src={vectorOrange}
+                alt="Logo"
+                className={styles.IconVector}
+              />
+              <p className={styles.Description}>Dedicated Team</p>
+            </div>
+            <div className={styles.About3}>
+              <Image
+                src={vectorBlue}
+                alt="Logo"
+                className={styles.IconVector}
+              />
+              <p className={styles.Description}>Autonomy</p>
+            </div>
+          </div>
+          {/* <Image src={rightHand} alt="Logo" className={styles.rightHand} /> */}
+        </div>
+      
     </div>
   );
 }

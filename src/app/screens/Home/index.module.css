@@ -74,6 +74,11 @@
   align-self: center;
   color: rgb(2, 34, 129);
 }
+.AboutTitle {
+  font-size: 40px;
+  align-self: center;
+  color: rgb(2, 34, 129);
+}
 .Containerdesc {
   display: flex;
   width: 800px;
@@ -90,6 +95,13 @@
   /* background-color: rgbnn(176, 11, 185); */
 }
 .ServicesDescription {
+  font-size: 26px;
+  width: 80%;
+  text-align: center;
+  align-self: center;
+  margin-bottom: 50px;
+}
+.AboutDescription {
   font-size: 26px;
   width: 80%;
   text-align: center;
@@ -121,8 +133,17 @@
   align-self: flex-end;
   margin-right: 17%;
 }
+.lineAbout {
+  height: 7px;
+  width: 65%;
+  display: block;
+  background: #ff8a00;
+  align-self: flex-start;
+  align-items: start;
 
-.line {
+  border-radius: 50px;
+}
+.lineService {
   height: 7px;
   width: 65%;
   display: block;
@@ -176,4 +197,119 @@
 .ServiceSection::after {
   align-self: center;
   top: 600px;
+}
+.AboutSection {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+}
+.About2,
+.About3,
+.About1,
+.About11 {
+  display: flex;
+  flex-direction: row;
+  width: 438px;
+  height: 50px;
+  align-items: center;
+  padding: 4px 8px;
+  justify-content: space-between;
+  border-radius: 50px;
+}
+.About1 {
+  background-color: #fbe4f5;
+}
+.About11 {
+  background-color: #fbe4f5;
+}
+.About1::after {
+  content: "";
+  background-image: url("../../assets/vectors.png");
+  background-size: 180px;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1; /* Ensure the images are behind the cards */
+  width: 180px; /* Adjust based on the size of your vector image */
+  height: 200px;
+  align-self: center;
+  top: 270px;
+}
+.Description {
+  font-size: 22px;
+  width: 87%;
+}
+.About2 {
+  background-color: #ffe7d6;
+}
+.About3 {
+  background-color: #d3f5f5;
+}
+.About11::after {
+  content: "";
+  background-image: url("../../assets/vectors.png");
+  background-size: 180px;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: -1; /* Ensure the images are behind the cards */
+  width: 180px; /* Adjust based on the size of your vector image */
+  height: 180px;
+  align-self: center;
+
+  top: 100px;
+  right: 70px;
+}
+.AboutUs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 450px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rightHand,
+.leftHand {
+  /* align-self: self-end; */
+  background-color: #bd21dd;
+  z-index: -1;
+}
+.rightHand {
+  right: 20px;
+  left: -400px;
+}
+.AboutUs::after {
+  content: "";
+  display: block;
+  background-image: url("../../assets/RightHand.png");
+  background-size: 351px;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+  width: 300px;
+  height: 330px;
+
+  align-self: flex-end;
+  bottom: 0;
+  right: 280px;
+
+  /* background-color: #3a21dd; */
+}
+.AboutUs::before {
+  content: "";
+  display: block;
+  background-image: url("../../assets/LeftHand.png");
+  background-size: 351px;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+  width: 300px;
+  height: 330px;
+  align-self: flex-start;
+  bottom: 0;
+  left: 222px;
+
+  /* background-color: #bd21dd; */
 }
