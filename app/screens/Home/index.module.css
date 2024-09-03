@@ -153,11 +153,38 @@
 
   border-radius: 50px;
 }
+.linePartners {
+  height: 7px;
+  width: 65%;
+  display: block;
+  background: #86d8e3;
+  align-self: flex-end;
+  align-items: start;
+
+  border-radius: 50px;
+}
 .ServiceCards {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+}
+.PartnersSection {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-image: url("../../assets/vectors.png");
+  background-size: 180px;
+  position: relative;
+
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  overflow: hidden;
+  padding: 50px 20px; /* Padding to ensure spacing for images and content */
 }
 .ServiceSection {
   flex: 1;

@@ -66,62 +66,53 @@ export default function Home() {
           forefront of digital innovation. Our global team is dedicated to
           delivering intelligent, customer-centric solutions that drive success.
         </p>
-       
-          {/* <Image src={leftHand} alt="Logo" className={styles.leftHand} /> */}
-          <div className={styles.AboutUs}>
-            <div className={styles.About1}>
-              <Image
-                src={vectorPink}
-                alt="Logo"
-                className={styles.IconVector}
-              />
-              <p className={styles.Description}>Client-First Approach</p>
-            </div>
-            <div className={styles.About2}>
-              <Image
-                src={vectorOrange}
-                alt="Logo"
-                className={styles.IconVector}
-              />
-              <p className={styles.Description}>Cost Effectivness</p>
-            </div>
-            <div className={styles.About3}>
-              <Image
-                src={vectorBlue}
-                alt="Logo"
-                className={styles.IconVector}
-              />
-              <p className={styles.Description}>Hands-on Workshops</p>
-            </div>
 
-            <div className={styles.About11}>
-              <Image
-                src={vectorPink}
-                alt="Logo"
-                className={styles.IconVector}
-              />
-              <p className={styles.Description}>The Agile Way</p>
-            </div>
-            <div className={styles.About2}>
-              <Image
-                src={vectorOrange}
-                alt="Logo"
-                className={styles.IconVector}
-              />
-              <p className={styles.Description}>Dedicated Team</p>
-            </div>
-            <div className={styles.About3}>
-              <Image
-                src={vectorBlue}
-                alt="Logo"
-                className={styles.IconVector}
-              />
-              <p className={styles.Description}>Autonomy</p>
-            </div>
+        {/* <Image src={leftHand} alt="Logo" className={styles.leftHand} /> */}
+        <div className={styles.AboutUs}>
+          <div className={styles.About1}>
+            <Image src={vectorPink} alt="Logo" className={styles.IconVector} />
+            <p className={styles.Description}>Client-First Approach</p>
           </div>
-          {/* <Image src={rightHand} alt="Logo" className={styles.rightHand} /> */}
+          <div className={styles.About2}>
+            <Image
+              src={vectorOrange}
+              alt="Logo"
+              className={styles.IconVector}
+            />
+            <p className={styles.Description}>Cost Effectivness</p>
+          </div>
+          <div className={styles.About3}>
+            <Image src={vectorBlue} alt="Logo" className={styles.IconVector} />
+            <p className={styles.Description}>Hands-on Workshops</p>
+          </div>
+
+          <div className={styles.About11}>
+            <Image src={vectorPink} alt="Logo" className={styles.IconVector} />
+            <p className={styles.Description}>The Agile Way</p>
+          </div>
+          <div className={styles.About2}>
+            <Image
+              src={vectorOrange}
+              alt="Logo"
+              className={styles.IconVector}
+            />
+            <p className={styles.Description}>Dedicated Team</p>
+          </div>
+          <div className={styles.About3}>
+            <Image src={vectorBlue} alt="Logo" className={styles.IconVector} />
+            <p className={styles.Description}>Autonomy</p>
+          </div>
         </div>
-      
+        {/* <Image src={rightHand} alt="Logo" className={styles.rightHand} /> */}
+      </div>
+      <div className={styles.PartnersSection}>
+        <h1 className={styles.ServiceTitle}>OUR PARTNERS</h1>
+        <div className={styles.linePartners}></div>
+        <p className={styles.ServicesDescription}>
+          We are proud to collaborate with industry-leading partners who share
+          our commitment to innovation and excellence.
+        </p>
+      </div>
     </div>
   );
 }
