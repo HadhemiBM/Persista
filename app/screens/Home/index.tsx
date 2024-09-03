@@ -12,6 +12,7 @@ import leftHand from "../../assets/LeftHand.png";
 
 import ServiceCard from "../../components/ServiceCard";
 import { services, Service } from "../../data/servicesData";
+import PartnersCard from "../../components/PartnersCard";
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -106,13 +107,14 @@ export default function Home() {
         {/* <Image src={rightHand} alt="Logo" className={styles.rightHand} /> */}
       </div>
       <div className={styles.PartnersSection}>
-        <h1 className={styles.ServiceTitle}>OUR PARTNERS</h1>
+        <h1 className={styles.PartnersTitle}>OUR PARTNERS</h1>
         <div className={styles.linePartners}></div>
-        <p className={styles.ServicesDescription}>
+        <p className={styles.PartnersDescription}>
           We are proud to collaborate with industry-leading partners who share
           our commitment to innovation and excellence.
         </p>
       </div>
+      <PartnersCard />
     </div>
   );
 }
