@@ -1,6 +1,7 @@
 import CircleAnimation from "../app/components/Cursor";
 import Navbar from "../app/components/Navbar";
 import Home from "../app/screens/Home";
+import Footer from "./components/footer";
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <CircleAnimation />
       <Navbar />
       <Home />
+      <Footer/>
     </div>
   );
 }

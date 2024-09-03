@@ -33,6 +33,10 @@ const PartnersCard = () => {
     { img: tekupLogo, alt: "Tekup Logo" },
     { img: tekupLogo, alt: "Other Logo" },
     { img: tekupLogo, alt: "Another Logo" },
+    { img: tekupLogo, alt: "Another Logo" },
+    { img: tekupLogo, alt: "Tekup Logo" },
+    { img: tekupLogo, alt: "Other Logo" },
+    { img: tekupLogo, alt: "Another Logo" },
   ];
 
   return (
@@ -44,7 +48,7 @@ const PartnersCard = () => {
       <div className={styles.scrollContainer} ref={scrollRef}>
         {items.map((item, index) => (
           <div key={index} className={styles.scrollItem}>
-            <Image src={item.img} alt={item.alt}  />
+            <Image src={item.img} alt={item.alt} />
           </div>
         ))}
       </div>

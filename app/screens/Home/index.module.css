@@ -200,15 +200,16 @@
   flex-direction: column;
   width: 100%;
   height: auto;
-  overflow: hidden;
+  /* overflow: hidden;
   background-image: url("../../assets/vectors.png");
   background-size: 180px;
   position: relative;
 
   background-repeat: no-repeat;
-  background-position: left bottom;
+  background-position: left bottom; */
   overflow: hidden;
-  padding: 50px 20px; /* Padding to ensure spacing for images and content */
+  padding: 50px 10px;
+  position: relative;
 }
 .ServiceSection,
 .WhyUSSection {
