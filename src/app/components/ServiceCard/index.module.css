@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f8f8;
+  width: 30%;
+  height: 380px;
+  position: relative;
+  top: 0;
+  border-radius: 50px;
+  align-items: center;
+  font-family: Balthazar;
+}
+
+.IconLogo {
+  width: 70px;
+  height: 72px;
+  margin-top: 20px;
+}
+
+.title {
+  font-size: 26px;
+  margin-top: 20px;
+  align-self: center;
+  color: rgb(2, 34, 129);
+}
+
+.ServicesDescription {
+  font-size: 26px;
+  width: 90%;
+  text-align: center;
+  align-self: center;
+  margin-bottom: 50px;
+}
+
+.ContactButton {
+  background-color: white;
+
+  border: #86d8e3 solid 3px;
+  width: 150px;
+  height: 60px;
+  border-radius: 50px;
+
+  font-size: 20px;
+  color: rgb(2, 34, 129);
+}
+@media (max-width: 768px) {
+  .container {
+    flex: 1 1 100%; /* On smaller screens, each card takes up 100% of the width */
+  }
+}
