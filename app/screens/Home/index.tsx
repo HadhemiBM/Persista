@@ -8,7 +8,9 @@ import vectorPink from "../../assets/VectorPink.png";
 import vectorOrange from "../../assets/VectorOrange.png";
 import vectorBlue from "../../assets/VectorBlue.png";
 import rightHand from "../../assets/RightHand.png";
-import leftHand from "../../assets/LeftHand.png";
+import EllipseBlue from "../../assets/EllipseBlue.png";
+import EllipsePink from "../../assets/EllipsePink.png";
+import EllipseOrange from "../../assets/EllipseOrange.png";
 
 import ServiceCard from "../../components/ServiceCard";
 import { services, Service } from "../../data/servicesData";
@@ -115,6 +117,69 @@ export default function Home() {
         </p>
       </div>
       <PartnersCard />
+      <div className={styles.WhyUSSection}>
+        <h1 className={styles.ServiceTitle}>WHY CHOOSE US</h1>
+        <div className={styles.lineWhy}></div>
+        <div className={styles.whys}>
+          <div className={styles.rowWhy}>
+            <Image
+              src={EllipseBlue}
+              alt="Logo"
+              className={styles.IconVectorWHY}
+            />
+            <h5 className={styles.titleWhy}>
+              Empowering Businesses with Robust Solutions
+            </h5>
+          </div>
+          <p className={styles.Descwhy}>
+            With over a decade of experience in IT services, Persista delivers
+            tailored, result-driven applications and systems for clients
+            worldwide.
+          </p>
+        </div>
+        <div className={styles.whys}>
+          <div className={styles.rowWhy}>
+            <Image
+              src={EllipseOrange}
+              alt="Logo"
+              className={styles.IconVectorWHY}
+            />
+            <h5 className={styles.titleWhy}>Agile Development</h5>
+          </div>
+          <p className={styles.Descwhy}>
+            We utilize proven agile methodologies to enhance project outcomes.
+          </p>
+        </div>
+
+        <div className={styles.whys}>
+          <div className={styles.rowWhy}>
+            <Image
+              src={EllipsePink}
+              alt="Logo"
+              className={styles.IconVectorWHY}
+            />
+            <h5 className={styles.titleWhy}>Analytics Expertise</h5>
+          </div>
+          <p className={styles.Descwhy}>
+            Harness the power of data with simplified, actionable insights.
+          </p>
+        </div>
+
+        <div className={styles.whys}>
+          <div className={styles.rowWhy}>
+            <Image
+              src={EllipseBlue}
+              alt="Logo"
+              className={styles.IconVectorWHY}
+            />
+            <h5 className={styles.titleWhy}>Well-Documented Solutions</h5>
+          </div>
+          <p className={styles.Descwhy}>
+            Our clean, organized documentation ensures seamless knowledge
+            transfer.
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
