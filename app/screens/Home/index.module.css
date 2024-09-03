@@ -166,6 +166,17 @@
 
   border-radius: 50px;
 }
+.lineWhy {
+  height: 7px;
+  width: 65%;
+  display: block;
+  background: #f9d7f1;
+  align-self: flex-start;
+  align-items: start;
+
+  border-radius: 50px;
+  margin-bottom: 50px;
+}
 .linePartners {
   height: 7px;
   width: 65%;
@@ -199,7 +210,8 @@
   overflow: hidden;
   padding: 50px 20px; /* Padding to ensure spacing for images and content */
 }
-.ServiceSection {
+.ServiceSection,
+.WhyUSSection {
   flex: 1;
   position: relative;
   display: flex;
@@ -356,4 +368,38 @@
   left: 222px;
 
   /* background-color: #bd21dd; */
+}
+.rowWhy {
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+  /* background-color: #4a21dd; */
+}
+.IconVectorWHY {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+.whys {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-bottom: 10px;
+  width: 80%;
+  height: auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.Descwhy {
+  font-size: 20px;
+
+  top: 0;
+}
+.titleWhy {
+  font-size: 26px;
+  color: rgb(2, 34, 129);
 }
