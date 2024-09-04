@@ -45,6 +45,6 @@
 }
 @media (max-width: 768px) {
   .container {
-    flex: 1 1 100%; /* On smaller screens, each card takes up 100% of the width */
+    flex: 1 1 100%;
   }
 }
