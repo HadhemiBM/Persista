@@ -3,17 +3,15 @@
   align-items: center;
   /* justify-content: space-between; */
   width: 100%;
-  top:-50px;
   /* background-color: aqua; */
   overflow: hidden;
   background-image: url("../../assets/vECTORShORI.png");
   background-size: 280px;
   position: relative;
-
   background-repeat: repeat-x;
   background-position: center center;
   overflow: hidden;
-  padding: 50px 20px;
+  padding: 0px 20px;
 }
 
 .scrollContainer {
@@ -23,7 +21,6 @@
   scroll-behavior: smooth;
   gap: 20px;
   width: 100%;
-
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
   -ms-overflow-style: none;
@@ -32,12 +29,13 @@
 .scrollItem {
   min-width: 265px;
   height: 148px;
-  background-color: #f0f0f0;
+  background-color: #ffffff;
   border: 1px solid #0cd8db;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50px;
+  overflow: hidden;
 }
 
 .scrollButton {
@@ -53,6 +51,12 @@
   position: absolute;
   margin: 10px;
 }
+.imge {
+  width: 90%;
+  height: 90%;
+  object-fit: contain; /* Ensure the image covers the container without distortion */
+  border-radius: 0; /* Maintain the border-radius of the parent */
+}
 
 .scrollButton:first-of-type {
   left: 0;
@@ -60,4 +64,23 @@
 
 .scrollButton:last-of-type {
   right: 0;
+}
+@media (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+    /* background-color: aqua; */
+    overflow: hidden;
+    background-image: url("../../assets/vECTORShORI.png");
+    background-size: 380px;
+    padding: 0px 30px;
+  }
+  .scrollButton {
+    width: 30px;
+    height: 82px;
+  }
+
+  .scrollItem {
+    min-width: 200px;
+    height: 120px;
+  }
 }

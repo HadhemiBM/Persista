@@ -25,12 +25,15 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
         <h2 className={styles.title}>{title}</h2>
       </div>
       <p className={styles.ServicesDescription}>{description}</p>
+      <div className={styles.btnContainer}>
+
       <button
         className={styles.ContactButton}
         onClick={() => (window.location.href = "contact")}
-      >
+        >
         Read more
       </button>
+        </div>
     </div>
   );
 };
