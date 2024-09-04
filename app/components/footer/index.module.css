@@ -22,7 +22,6 @@
   margin: 0 auto;
   padding: 0 16px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   height: 100%;
 }
@@ -40,8 +39,6 @@
   display: flex;
   flex-direction: column;
   align-self: flex-start;
-
-  /* gap: 24px; */
 }
 .iconMedia {
   width: 20px;
@@ -51,7 +48,9 @@
 .quick {
   position: relative;
   text-decoration: none;
+  font-size: 14px;
 }
+
 .quick::after {
   content: "";
   position: absolute;
@@ -72,8 +71,51 @@
   transition: color 0.2s ease-in-out;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+  .navbar {
+    width: 100%;
+    height: 170px;
+    background-color: #f4fdfd;
+    color: rgb(2, 34, 129);
+    bottom: 0;
+    font-family: Balthazar;
+    left: 0;
+    z-index: 50;
+
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+  }
+
   .navbarLinksContainer {
     display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-self: center;
+    font-size: 12px;
+    align-items: center;
+
+    flex-direction: column;
+  }
+  .FooterSocialMediaContainer {
+    display: flex;
+    width: 80%;
+    font-size: 12px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+  }
+  .navbarContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 0 16px;
+    display: flex;
+
+    height: 100%;
+  }
+  .quick::after {
+    width: 0%;
   }
 }

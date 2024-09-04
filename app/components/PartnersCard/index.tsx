@@ -48,7 +48,7 @@ const PartnersCard = () => {
       <div className={styles.scrollContainer} ref={scrollRef}>
         {items.map((item, index) => (
           <div key={index} className={styles.scrollItem}>
-            <Image src={item.img} alt={item.alt} />
+            <Image src={item.img} alt={item.alt}  className={styles.imge}/>
           </div>
         ))}
       </div>

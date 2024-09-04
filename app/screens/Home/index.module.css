@@ -375,6 +375,7 @@
   font-size: 26px;
   color: rgb(2, 34, 129);
 }
+/* ###################################################################### */
 @media (max-width: 768px) {
   .HeaderSection {
     background-size: 100px;
@@ -384,14 +385,13 @@
     align-self: center;
   }
   .RobotLogo {
-    width: 25%;
+    width: 22%;
     align-self: center;
-    /* background-color: #21ddc7; */
   }
   .IconRobot {
     width: 100%;
     margin-top: 40px;
-    /* background-color: #bd21dd; */
+
     align-self: center;
 
     height: 180px;
