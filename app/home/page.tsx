@@ -2,19 +2,19 @@
 import styles from "./index.module.css";
 
 import Image from "next/image";
-import robot from "../../assets/ROBOT.png";
+import robot from "../assets/ROBOT.png";
 
-import vectorPink from "../../assets/VectorPink.png";
-import vectorOrange from "../../assets/VectorOrange.png";
-import vectorBlue from "../../assets/VectorBlue.png";
+import vectorPink from "../assets/VectorPink.png";
+import vectorOrange from "../assets/VectorOrange.png";
+import vectorBlue from "../assets/VectorBlue.png";
 
-import EllipseBlue from "../../assets/EllipseBlue.png";
-import EllipsePink from "../../assets/EllipsePink.png";
-import EllipseOrange from "../../assets/EllipseOrange.png";
+import EllipseBlue from "../assets/EllipseBlue.png";
+import EllipsePink from "../assets/EllipsePink.png";
+import EllipseOrange from "../assets/EllipseOrange.png";
 
-import ServiceCard from "../../components/ServiceCard";
-import { services, Service } from "../../data/servicesData";
-import PartnersCard from "../../components/PartnersCard";
+import ServiceCard from "../components/ServiceCard";
+import { services, Service } from "../data/servicesData";
+import PartnersCard from "../components/PartnersCard";
 export default function Home() {
   return (
     <div className={styles.container}>

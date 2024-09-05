@@ -1,20 +1,18 @@
 /* Styles pour la barre de navigation */
 .footer {
-  width: 90%;
+  width: 100%;
   height: 280px;
   background-color: #f4fdfd;
   color: rgb(2, 34, 129);
-  bottom: 0;
+
   justify-content: space-between;
   align-items: center;
-  align-self: center;
+
   align-content: center;
   display: flex;
   font-family: Balthazar;
-  left: 0;
+
   z-index: 50;
-  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
-  /* background-color: #0cd8db; */
 }
 
 .IconLogo {
@@ -26,7 +24,7 @@
 .footerContainer {
   width: 100%;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0 40px;
   display: flex;
   align-items: center;
   align-self: center;

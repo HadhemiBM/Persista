@@ -1,0 +1,522 @@
+.container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  margin-top: 90px;
+  display: flex;
+  flex: 1;
+  /* color: rgb(2, 34, 129); */
+  flex-direction: column;
+  position: relative;
+
+  top: 0;
+  font-family: Balthazar;
+}
+.HeaderSection {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  background-image: url("../assets/vectors.png");
+  background-size: 180px;
+  position: relative;
+
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  overflow: hidden;
+}
+/* .ServiceSection {
+  flex: 1;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 2000px;
+  overflow: hidden;
+} */
+
+.HeaderContent {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: 20px;
+  /* background-color: rgb(20, 113, 227); */
+  /* justify-content: center;
+  align-items: center; */
+}
+.RobotLogo {
+  width: 30%;
+  height: 25%;
+  /* background-color: rgb(176, 11, 185); */
+}
+.IconRobot {
+  width: 87%;
+  margin-top: 40px;
+  height: 550px;
+  margin-left: 70px;
+}
+.ContainerTitle {
+  display: flex;
+  width: 100%;
+  height: 101px;
+  border-radius: 50px;
+  margin-top: 145px;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(90deg, #ffdec5 0%, #f9d7f1 50%, #dffbff 100%);
+}
+
+.ServiceTitle,
+.PartnersTitle,
+.AboutTitle {
+  font-size: 40px;
+  align-self: center;
+  color: rgb(2, 34, 129);
+}
+
+.Containerdesc {
+  display: flex;
+  width: 800px;
+  height: 101px;
+  border-radius: 50px;
+  margin-top: 75px;
+  margin-left: 15px;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+}
+.HeaderDescription {
+  font-size: 40px;
+}
+.ServicesDescription,
+.PartnersDescription,
+.AboutDescription {
+  font-size: 26px;
+  width: 80%;
+  text-align: center;
+  align-self: center;
+}
+.AboutDescription {
+  margin-bottom: 50px;
+}
+.HeaderTitle {
+  font-size: 48px;
+  color: rgb(2, 34, 129);
+}
+.ContactButton {
+  background-color: white;
+  border: #86d8e3 solid 3px;
+  width: 150px;
+  height: 60px;
+  border-radius: 50px;
+  font-size: 20px;
+  color: rgb(2, 34, 129);
+  margin-top: 30px;
+}
+.ContainerButton {
+  justify-content: center;
+  align-items: center;
+  align-self: flex-end;
+  margin-right: 17%;
+}
+
+.lineService,
+.lineAbout,
+.linePartners,
+.lineWhy {
+  height: 7px;
+  width: 65%;
+  display: block;
+  background: #f9d7f1;
+  align-self: flex-start;
+  align-items: start;
+
+  border-radius: 50px;
+}
+.lineAbout {
+  background: #ff8a00;
+  align-self: flex-end;
+
+  border-radius: 50px;
+}
+.lineWhy {
+  margin-bottom: 50px;
+  align-self: flex-end;
+}
+.linePartners {
+  background: #86d8e3;
+  border-radius: 50px;
+}
+.ServiceCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.PartnersSection {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 50px 10px;
+  position: relative;
+}
+.ServiceSection,
+.WhyUSSection {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-image: url("../assets/vectors.png");
+  background-size: 180px;
+  position: relative;
+  align-self: center;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  overflow: hidden;
+  padding: 50px 20px;
+}
+.ServiceSection::before,
+.ServiceSection::after {
+  content: "";
+  background-image: url("../assets/vectors.png");
+  background-size: 180px;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+  width: 200px;
+  height: 200px;
+}
+.ServiceSection::before {
+  top: 400px;
+  left: -20px;
+}
+.ServiceSection::after {
+  align-self: center;
+  top: 600px;
+}
+.AboutSection {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+
+  height: auto;
+}
+.About2,
+.About3,
+.About11,
+.About1 {
+  display: flex;
+  flex-direction: row;
+  width: 438px;
+  height: 50px;
+  align-items: center;
+  padding: 4px 8px;
+  justify-content: space-between;
+  border-radius: 50px;
+}
+
+.About1,
+.About11 {
+  background-color: #fbe4f5;
+}
+
+.About1::after {
+  content: "";
+  background-image: url("../assets/vectors.png");
+  background-size: 180px;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+  width: 180px;
+  height: 200px;
+  align-self: center;
+  top: 270px;
+}
+.Description {
+  font-size: 22px;
+  width: 87%;
+}
+.About2 {
+  background-color: #ffe7d6;
+}
+.About3 {
+  background-color: #d3f5f5;
+}
+.About11::after {
+  content: "";
+  background-image: url("../assets/vectors.png");
+  background-size: 180px;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+  width: 180px;
+  height: 220px;
+  align-self: center;
+
+  top: 400px;
+  right: 570px;
+}
+.AboutUs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  height: 450px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rightHand,
+.leftHand {
+  background-color: #bd21dd;
+  z-index: -1;
+}
+.rightHand {
+  right: 20px;
+  left: -400px;
+}
+.AboutUs::after {
+  content: "";
+  display: block;
+  background-image: url("../assets/RightHand.png");
+  background-size: 351px;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+  width: 300px;
+  height: 330px;
+
+  align-self: flex-end;
+  bottom: 0;
+  right: 280px;
+}
+.AboutUs::before {
+  content: "";
+  display: block;
+  background-image: url("../assets/LeftHand.png");
+  background-size: 351px;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: -1;
+  width: 300px;
+  height: 330px;
+  align-self: flex-start;
+  bottom: 0;
+  left: 222px;
+}
+.rowWhy {
+  display: flex;
+  align-self: center;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 30px;
+}
+.IconVectorWHY {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+.whys {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  margin-bottom: 10px;
+  width: 80%;
+  height: auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.Descwhy {
+  font-size: 20px;
+
+  top: 0;
+}
+.titleWhy {
+  font-size: 26px;
+  color: rgb(2, 34, 129);
+}
+/* ###################################################################### */
+@media (max-width: 480px) {
+}
+/* ###################################################################### */
+@media (max-width: 601px) {
+}
+
+/* ###################################################################### */
+@media (max-width: 992px) {
+}
+/* ###################################################################### */
+@media (max-width: 1200px) {
+}
+@media (min-width: 1200px) {
+}
+/* ###################################################################### */
+@media (max-width: 768px) {
+  .HeaderSection {
+    background-size: 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+  }
+  .RobotLogo {
+    width: 22%;
+    align-self: center;
+  }
+  .IconRobot {
+    width: 100%;
+    margin-top: 40px;
+
+    align-self: center;
+
+    height: 180px;
+    margin-left: 0;
+  }
+  .HeaderContent {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 0 0;
+
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .ContainerTitle {
+    width: 60%;
+    height: 70px;
+    border-radius: 50px;
+
+    margin: 0 0 0 0;
+    align-self: center;
+
+    justify-content: center;
+    align-items: center;
+  }
+  .HeaderTitle {
+    font-size: 26px;
+  }
+  .Containerdesc {
+    display: flex;
+    width: 80%;
+    margin-top: 10px;
+
+    border-radius: 50px;
+
+    align-self: center;
+
+    justify-content: center;
+    align-items: center;
+  }
+  .HeaderDescription {
+    font-size: 26px;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .ContainerButton {
+    width: 100%;
+    display: flex;
+
+    align-self: center;
+
+    margin: 0 0 0 0;
+  }
+  .ContactButton {
+    width: 120px;
+    height: 50px;
+    margin: 0 0 0 0;
+
+    font-size: 16px;
+  }
+  .ServiceTitle,
+  .PartnersTitle,
+  .AboutTitle {
+    font-size: 26px;
+  }
+  .lineService,
+  .lineWhy,
+  .lineAbout,
+  .linePartners {
+    height: 5px;
+    margin: 0 0 0 0;
+    width: 70%;
+    align-self: center;
+    align-items: center;
+  }
+  .lineWhy,
+  .lineAbout {
+    margin-bottom: 20px;
+  }
+  .ServicesDescription,
+  .PartnersDescription,
+  .AboutDescription {
+    font-size: 22px;
+    width: 90%;
+    margin: 10px 0 20px 0;
+  }
+  .AboutUs {
+    height: 330px;
+  }
+  .About2,
+  .About3,
+  .About1,
+  .About11 {
+    width: 350px;
+    height: 40px;
+  }
+  .AboutUs::after,
+  .AboutUs::before {
+    background-size: 0px;
+  }
+  .Description {
+    font-size: 18px;
+    width: 87%;
+  }
+  .About11::after {
+    background-size: 130px;
+    position: relative;
+    align-self: flex-end;
+    top: 110px;
+    right: 70px;
+  }
+  .About1::after {
+    background-size: 130px;
+    align-self: flex-end;
+    top: 205px;
+  }
+  .WhyUSSection,
+  .ServiceSection {
+    background-size: 130px;
+  }
+  .IconVectorWHY {
+    width: 16px;
+    height: 16px;
+  }
+  .titleWhy {
+    font-size: 18px;
+  }
+  .Descwhy {
+    font-size: 16px;
+    margin: 4px 0 0 0;
+  }
+}

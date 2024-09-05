@@ -18,7 +18,7 @@
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
-  background-image: url("../../assets/vectors.png");
+  background-image: url("../assets/vectors.png");
   background-size: 180px;
   position: relative;
 
@@ -176,7 +176,7 @@
   width: 100%;
   height: auto;
   overflow: hidden;
-  background-image: url("../../assets/vectors.png");
+  background-image: url("../assets/vectors.png");
   background-size: 180px;
   position: relative;
   align-self: center;
@@ -188,7 +188,7 @@
 .ServiceSection::before,
 .ServiceSection::after {
   content: "";
-  background-image: url("../../assets/vectors.png");
+  background-image: url("../assets/vectors.png");
   background-size: 180px;
   background-repeat: no-repeat;
   position: absolute;
@@ -237,7 +237,7 @@
 
 .About1::after {
   content: "";
-  background-image: url("../../assets/vectors.png");
+  background-image: url("../assets/vectors.png");
   background-size: 180px;
   background-repeat: no-repeat;
   position: absolute;
@@ -259,7 +259,7 @@
 }
 .About11::after {
   content: "";
-  background-image: url("../../assets/vectors.png");
+  background-image: url("../assets/vectors.png");
   background-size: 180px;
   background-repeat: no-repeat;
   position: absolute;
@@ -293,7 +293,7 @@
 .AboutUs::after {
   content: "";
   display: block;
-  background-image: url("../../assets/RightHand.png");
+  background-image: url("../assets/RightHand.png");
   background-size: 351px;
   background-repeat: no-repeat;
   position: absolute;
@@ -308,7 +308,7 @@
 .AboutUs::before {
   content: "";
   display: block;
-  background-image: url("../../assets/LeftHand.png");
+  background-image: url("../assets/LeftHand.png");
   background-size: 351px;
   background-repeat: no-repeat;
   position: absolute;
