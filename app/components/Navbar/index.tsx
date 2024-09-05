@@ -10,7 +10,6 @@ import logo from "../../assets/logo.png";
 const Navbar: React.FC = () => {
   const [nav, setNav] = useState<boolean>(false);
   const pathname = usePathname();
-  console.log(pathname);
 
   const links = [
     { id: 1, link: "/", name: "Accueil" },

@@ -56,7 +56,38 @@
 @media (max-width: 480px) {
 }
 /* ###################################################################### */
-@media (max-width: 601px) {
+@media (max-width: 600px) {
+  .container {
+    width: 40%;
+    height: 210px;
+  }
+  .IconLogo {
+    width: 30px;
+    height: 30px;
+  }
+  .title {
+    font-size: 16px;
+    align-self: center;
+    margin: 0 0 8px 0;
+  }
+  .ServicesDescription {
+    font-size: 16px;
+    margin: 0 0 8px 0;
+  }
+  .btnContainer {
+    display: flex;
+
+    align-self: center;
+    align-items: flex-end;
+
+    margin: 0 0 10px 0;
+  }
+  .ContactButton {
+    width: 100px;
+    height: 30px;
+    border-width: 1px;
+    font-size: 12px;
+  }
 }
 
 /* ###################################################################### */
@@ -68,7 +99,7 @@
 @media (min-width: 1200px) {
 }
 /* ###################################################################### */
-@media (max-width: 768px) {
+@media (min-width: 601px) and (max-width: 768px) {
   .container {
     /* flex: 1 1 100%; */
     width: 40%;
@@ -92,7 +123,7 @@
 
     align-self: center;
     align-items: flex-end;
-    
+
     margin: 0 0 10px 0;
   }
   .ContactButton {

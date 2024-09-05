@@ -4,7 +4,6 @@
 
   width: 100%;
 
- 
   background-image: url("../../assets/vECTORShORI.png");
   background-size: 350px;
   position: relative;
@@ -68,7 +67,32 @@
 @media (max-width: 480px) {
 }
 /* ###################################################################### */
-@media (max-width: 601px) {
+@media (max-width: 600px) {
+  .wrapper {
+    width: 100%;
+
+    overflow: hidden;
+    background-image: url("../../assets/vECTORShORI.png");
+    background-size: 200px;
+    padding: 0px 30px;
+  }
+  .scrollButton {
+    width: 30px;
+    height: 82px;
+  }
+
+  .scrollItem {
+    min-width: 135px;
+    /* background-color: aquamarine; */
+    height: 80px;
+  }
+  .scrollButton:first-of-type {
+    left: -5px;
+  }
+
+  .scrollButton:last-of-type {
+    right: 52px;
+  }
 }
 
 /* ###################################################################### */
@@ -80,7 +104,7 @@
 @media (min-width: 1200px) {
 }
 /* ###################################################################### */
-@media (max-width: 768px) {
+@media (min-width: 601px) and (max-width: 768px) {
   .wrapper {
     width: 100%;
 
