@@ -3,11 +3,11 @@ import styles from "./index.module.css";
 
 import Image from "next/image";
 import robot from "../../assets/ROBOT.png";
-import vector from "../../assets/vectors.png";
+
 import vectorPink from "../../assets/VectorPink.png";
 import vectorOrange from "../../assets/VectorOrange.png";
 import vectorBlue from "../../assets/VectorBlue.png";
-import rightHand from "../../assets/RightHand.png";
+
 import EllipseBlue from "../../assets/EllipseBlue.png";
 import EllipsePink from "../../assets/EllipsePink.png";
 import EllipseOrange from "../../assets/EllipseOrange.png";
@@ -21,7 +21,6 @@ export default function Home() {
       <div className={styles.HeaderSection}>
         <div className={styles.RobotLogo}>
           <Image src={robot} alt="Logo" className={styles.IconRobot} />
-          {/* <Link href="/">Logo</Link> */}
         </div>
         <div className={styles.HeaderContent}>
           <div className={styles.ContainerTitle}>
@@ -70,7 +69,6 @@ export default function Home() {
           delivering intelligent, customer-centric solutions that drive success.
         </p>
 
-        {/* <Image src={leftHand} alt="Logo" className={styles.leftHand} /> */}
         <div className={styles.AboutUs}>
           <div className={styles.About1}>
             <Image src={vectorPink} alt="Logo" className={styles.IconVector} />
@@ -106,7 +104,6 @@ export default function Home() {
             <p className={styles.Description}>Autonomy</p>
           </div>
         </div>
-        {/* <Image src={rightHand} alt="Logo" className={styles.rightHand} /> */}
       </div>
       <div className={styles.PartnersSection}>
         <h1 className={styles.PartnersTitle}>OUR PARTNERS</h1>
