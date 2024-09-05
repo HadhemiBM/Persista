@@ -8,9 +8,9 @@ export default function App() {
   return (
     <div className={styles.Page}>
       <CircleAnimation />
-      <Navbar />
+      {/* <Navbar /> */}
       <Home />
-      <Footer  />
+      <Footer />
     </div>
   );
 }

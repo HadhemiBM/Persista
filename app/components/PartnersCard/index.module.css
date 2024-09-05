@@ -4,7 +4,7 @@
 
   width: 100%;
 
-  overflow: hidden;
+ 
   background-image: url("../../assets/vECTORShORI.png");
   background-size: 350px;
   position: relative;
@@ -62,7 +62,7 @@
 }
 
 .scrollButton:last-of-type {
-  right: 0;
+  right: 30px;
 }
 /* ###################################################################### */
 @media (max-width: 480px) {

@@ -5,6 +5,11 @@
   background-color: #f4fdfd;
   color: rgb(2, 34, 129);
   bottom: 0;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+  display: flex;
   font-family: Balthazar;
   left: 0;
   z-index: 50;
@@ -24,6 +29,8 @@
   padding: 0 16px;
   display: flex;
   align-items: center;
+  align-self: center;
+  align-content: center;
   height: 100%;
   /* background-color: #3e1fc5; */
   justify-content: space-between;
@@ -38,12 +45,20 @@
 
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+
   align-self: center;
+  align-content: center;
+  align-items: center;
 }
 .footerLinksContainer {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+
   align-self: center;
+  align-content: center;
+  align-items: center;
 }
 .iconMedia {
   width: 20px;
@@ -68,9 +83,14 @@
 .FooterSocialMedia {
   display: flex;
   flex-direction: row;
+
+  justify-content: space-between;
+
+  align-self: center;
+  align-content: center;
   align-items: center;
 }
-.navbarLink {
+.footerLink {
   font-size: 18px;
   transition: color 0.2s ease-in-out;
 }
