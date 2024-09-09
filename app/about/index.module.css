@@ -18,12 +18,12 @@
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
-  background-image: url("../assets/vectors.png");
+  /* background-image: url("../assets/vectors.png");
   background-size: 180px;
   position: relative;
 
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: right bottom; */
   overflow: hidden;
 }
 /* .ServiceSection {
@@ -175,18 +175,18 @@
   flex-direction: column;
   width: 100%;
   height: auto;
-  overflow: hidden;
-  background-image: url("../assets/vectors.png");
+
+  /* background-image: url("../assets/vectors.png");
   background-size: 180px;
   position: relative;
   align-self: center;
   background-repeat: no-repeat;
-  background-position: right bottom;
+  background-position: right bottom; */
   overflow: hidden;
   padding: 50px 20px;
 }
 .ServiceSection::before,
-.ServiceSection::after {
+/* .ServiceSection::after {
   content: "";
   background-image: url("../assets/vectors.png");
   background-size: 180px;
@@ -195,7 +195,7 @@
   z-index: -1;
   width: 200px;
   height: 200px;
-}
+} */
 .ServiceSection::before {
   top: 400px;
   left: -20px;
@@ -235,7 +235,7 @@
   background-color: #fbe4f5;
 }
 
-.About1::after {
+/* .About1::after {
   content: "";
   background-image: url("../assets/vectors.png");
   background-size: 180px;
@@ -246,7 +246,7 @@
   height: 200px;
   align-self: center;
   top: 270px;
-}
+} */
 .Description {
   font-size: 22px;
   width: 87%;
@@ -257,7 +257,7 @@
 .About3 {
   background-color: #d3f5f5;
 }
-.About11::after {
+/* .About11::after {
   content: "";
   background-image: url("../assets/vectors.png");
   background-size: 180px;
@@ -270,7 +270,7 @@
 
   top: 400px;
   right: 570px;
-}
+} */
 .AboutUs {
   display: flex;
   flex-direction: column;
@@ -290,7 +290,7 @@
   right: 20px;
   left: -400px;
 }
-.AboutUs::after {
+/* .AboutUs::after {
   content: "";
   display: block;
   background-image: url("../assets/RightHand.png");
@@ -304,8 +304,8 @@
   align-self: flex-end;
   bottom: 0;
   right: 280px;
-}
-.AboutUs::before {
+} */
+/* .AboutUs::before {
   content: "";
   display: block;
   background-image: url("../assets/LeftHand.png");
@@ -318,7 +318,7 @@
   align-self: flex-start;
   bottom: 0;
   left: 222px;
-}
+} */
 .rowWhy {
   display: flex;
   align-self: center;
@@ -370,7 +370,7 @@
 /* ###################################################################### */
 @media (max-width: 768px) {
   .HeaderSection {
-    background-size: 100px;
+    /* background-size: 100px; */
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -484,30 +484,30 @@
     width: 350px;
     height: 40px;
   }
-  .AboutUs::after,
+  /* .AboutUs::after,
   .AboutUs::before {
     background-size: 0px;
-  }
+  } */
   .Description {
     font-size: 18px;
     width: 87%;
   }
-  .About11::after {
+  /* .About11::after {
     background-size: 130px;
     position: relative;
     align-self: flex-end;
     top: 110px;
     right: 70px;
-  }
-  .About1::after {
+  } */
+  /* .About1::after {
     background-size: 130px;
     align-self: flex-end;
     top: 205px;
-  }
-  .WhyUSSection,
+  } */
+  /* .WhyUSSection,
   .ServiceSection {
     background-size: 130px;
-  }
+  } */
   .IconVectorWHY {
     width: 16px;
     height: 16px;

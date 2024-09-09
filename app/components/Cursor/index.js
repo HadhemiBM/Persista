@@ -1,6 +1,7 @@
 // components/CircleAnimation.js
 "use client"; // Indique que ce composant est client-side
 
+import React, { gsap } from "gsap";
 import { useEffect } from "react";
 import styles from "./CircleAnimation.module.css"; // Import CSS module for styling
 
