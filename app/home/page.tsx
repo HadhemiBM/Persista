@@ -41,7 +41,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className={styles.ServiceSection}>
+      <div className={styles.ServiceSection} id="services">
         <h1 className={styles.ServiceTitle}>OUR SERVICES</h1>
         <div className={styles.lineService}></div>
         <p className={styles.ServicesDescription}>
@@ -60,7 +60,7 @@ export default function Home() {
           ))}
         </div>
       </div>
-      <div className={styles.AboutSection}>
+      <div className={styles.AboutSection} id="about">
         <h1 className={styles.AboutTitle}>ABOUT US</h1>
         <div className={styles.lineAbout}></div>
         <p className={styles.AboutDescription}>
@@ -105,7 +105,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className={styles.PartnersSection}>
+      <div className={styles.PartnersSection} id="partners">
         <h1 className={styles.PartnersTitle}>OUR PARTNERS</h1>
         <div className={styles.linePartners}></div>
         <p className={styles.PartnersDescription}>
@@ -114,7 +114,7 @@ export default function Home() {
         </p>
       </div>
       <PartnersCard />
-      <div className={styles.WhyUSSection}>
+      <div className={styles.WhyUSSection} id="whyUs">
         <h1 className={styles.ServiceTitle}>WHY CHOOSE US</h1>
         <div className={styles.lineWhy}></div>
         <div className={styles.whys}>
@@ -177,6 +177,7 @@ export default function Home() {
           </p>
         </div>
       </div>
+      <div id="contact"></div>
     </div>
   );
 }
