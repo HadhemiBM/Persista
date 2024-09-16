@@ -15,6 +15,8 @@ import EllipseOrange from "../assets/EllipseOrange.png";
 import ServiceCard from "../components/ServiceCard";
 import { services, Service } from "../data/servicesData";
 import PartnersCard from "../components/PartnersCard";
+import Productard from "../components/ProjectCard";
+import ProjectCard from "../components/ProjectCard";
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -176,6 +178,9 @@ export default function Home() {
             transfer.
           </p>
         </div>
+      </div>
+      <div className="text-green-500">
+        <ProjectCard />
       </div>
       <div id="contact"></div>
     </div>
