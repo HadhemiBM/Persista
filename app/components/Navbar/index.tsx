@@ -5,7 +5,8 @@ import React, { useState } from "react";
 import { usePathname } from "next/navigation";
 import styles from "./index.module.css";
 import Image from "next/image";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/persistaTech.png";
+// import logo from "../../assets/logo.png";
 
 const Navbar: React.FC = () => {
   const [nav, setNav] = useState<boolean>(false);

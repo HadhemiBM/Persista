@@ -5,7 +5,8 @@ import React from "react";
 import { usePathname } from "next/navigation";
 import styles from "./index.module.css";
 import Image from "next/image";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/persistaTech.png";
+
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { IoLogoFacebook } from "react-icons/io5";
