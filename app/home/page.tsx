@@ -107,6 +107,18 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className={styles.ProjectsSection} id="about">
+        <h1 className={styles.ProjectTitle}>PORTFOLIO</h1>
+        <div className={styles.lineProjects}></div>
+        <p className={styles.ProjectDescription}>
+          Explore a selection of projects we have completed for our clients.
+          Each solution is tailor-made to meet their specific needs, using the
+          latest and most innovative technologies.
+        </p>
+        <div className={styles.projectsCard}>
+          <ProjectCard />
+        </div>
+      </div>
       <div className={styles.PartnersSection} id="partners">
         <h1 className={styles.PartnersTitle}>OUR PARTNERS</h1>
         <div className={styles.linePartners}></div>
@@ -179,9 +191,7 @@ export default function Home() {
           </p>
         </div>
       </div>
-      <div className="text-green-500">
-        <ProjectCard />
-      </div>
+
       <div id="contact"></div>
     </div>
   );

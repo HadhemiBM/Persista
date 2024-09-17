@@ -7,75 +7,116 @@ import medi from "../../assets/Frame2.png";
 
 const ProjectCard = () => {
   return (
-    <div className={styles.container}>
-      <div className={styles.cardContainer}>
-        <div className={styles.imageContainer}>
-          <Image src={landing} alt="bed" className={styles.image} />
-        </div>
+    <div className={styles.bigContainer}>
+      <div className={styles.textall}>
+        <h3>See all</h3>
 
-        <div className={styles.circleButton}>
+        <span className={styles.arrowSee}>&#8594;</span>
+      </div>
+      <div className={styles.container}>
+        <div className={styles.column}>
+          <div className={styles.cardContainer}>
+            <div className={styles.imageContainer}>
+              <Image src={medi} alt="bed" className={styles.image} />
+            </div>
+
+            {/* <div className={styles.circleButton}>
           <span className={styles.arrow}>&#8594;</span>
-        </div>
+        </div> */}
 
-        <div className={styles.textContainer}>
-          <h3>Web application</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            illum ex eos voluptates.
-          </p>
-          <div className={styles.textrow}>
-            <h6> Details</h6>
+            <div className={styles.textContainer}>
+              <h3>Mobile application</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium illum ex eos voluptates.
+              </p>
+              <div className={styles.textrow}>
+                <h5>Details</h5>
 
-            <span className={styles.arrowVoir}>&#8594;</span>
+                <span className={styles.arrowVoir}>&#8594;</span>
+              </div>
+            </div>
           </div>
+          <h3>ALIFA</h3>
         </div>
-      </div>
-      <div className={styles.cardContainer}>
-        <div className={styles.imageContainer}>
-          <Image src={medi} alt="bed" className={styles.image} />
-        </div>
-        <div className={styles.circleButton}>
+
+        <div className={styles.column}>
+          <div className={styles.cardContainer}>
+            <div className={styles.imageContainer}>
+              <Image src={medi} alt="bed" className={styles.image} />
+            </div>
+
+            {/* <div className={styles.circleButton}>
           <span className={styles.arrow}>&#8594;</span>
-        </div>
+        </div> */}
 
-        <div className={styles.textContainer}>
-          <h3>Mobile application</h3>
-          {/* <div className={styles.textrow}> */}
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            illum ex eos voluptates.
-          </p>
-          <div className={styles.textrow}>
-            <h6> Details</h6>
+            <div className={styles.textContainer}>
+              <h3>Web application</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium illum ex eos voluptates.
+              </p>
+              <div className={styles.textrow}>
+                <h5>Details</h5>
 
-            <span className={styles.arrowVoir}>&#8594;</span>
+                <span className={styles.arrowVoir}>&#8594;</span>
+              </div>
+            </div>
           </div>
-          {/* </div> */}
+          <h3>SPRO1</h3>
         </div>
-      </div>
-      <div className={styles.cardContainer}>
-        <div className={styles.imageContainer}>
-          <Image src={mobile} alt="bed" className={styles.image} />
-        </div>
-        <div className={styles.circleButton}>
+        <div className={styles.column}>
+          <div className={styles.cardContainer}>
+            <div className={styles.imageContainer}>
+              <Image src={medi} alt="bed" className={styles.image} />
+            </div>
+
+            {/* <div className={styles.circleButton}>
           <span className={styles.arrow}>&#8594;</span>
-        </div>
+        </div> */}
 
-        <div className={styles.textContainer}>
-          <h3>Mobile application</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
-            illum ex eos voluptates.
-          </p>
-          <div className={styles.textrow}>
-            <h6> Details</h6>
+            <div className={styles.textContainer}>
+              <h3>Web application</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium illum ex eos voluptates.
+              </p>
+              <div className={styles.textrow}>
+                <h5>Details</h5>
 
-            <span className={styles.arrowVoir}>&#8594;</span>
+                <span className={styles.arrowVoir}>&#8594;</span>
+              </div>
+            </div>
           </div>
-      </div>
-      </div>
-      </div>
+          <h3>TWIREX</h3>
+        </div>
+        <div className={styles.column}>
+          <div className={styles.cardContainer}>
+            <div className={styles.imageContainer}>
+              <Image src={medi} alt="bed" className={styles.image} />
+            </div>
 
+            {/* <div className={styles.circleButton}>
+          <span className={styles.arrow}>&#8594;</span>
+        </div> */}
+
+            <div className={styles.textContainer}>
+              <h3>Web and Mobile application</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Laudantium illum ex eos voluptates.
+              </p>
+              <div className={styles.textrow}>
+                <h5>Details</h5>
+
+                <span className={styles.arrowVoir}>&#8594;</span>
+              </div>
+            </div>
+          </div>
+          <h3>PEPOLLS</h3>
+        </div>
+      </div>
+    </div>
   );
 };
 

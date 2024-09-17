@@ -1,20 +1,44 @@
 .container {
-  padding: 2rem;
+  padding: 0rem 0rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  align-content: center;
   flex-direction: row;
   gap: 2rem;
   flex-wrap: wrap;
-}
+  align-self: center;
 
+  width: 100%;
+  /* background-color: blue; */
+}
+.bigContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  width: 100%;
+  flex-wrap: wrap;
+  align-self: center;
+  /* background-color: rgb(53, 53, 110); */
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
 .cardContainer {
   position: relative;
-  width: 300px; 
-  height: 400px; 
+  width: 300px;
+  /* background-color: blue; */
+
+  height: 280px;
   border-radius: 32px;
   overflow: hidden;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); 
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
 }
 .imageContainer {
@@ -27,19 +51,18 @@
   width: 100%;
   transition: all 0.3s ease-in-out;
 
-  height: 70%;
+  height: 100%;
 }
 .image {
- 
-  width: 100%; 
-  height: auto; 
-  max-height: 280px; 
-  max-width: 300px; 
+  width: 100%;
+  height: auto;
+  max-height: 280px;
+  max-width: 300px;
 }
 
 .circleButton {
   position: absolute;
-  bottom: 16rem;
+  bottom: 14rem;
   right: -1rem;
   width: 60px;
   height: 40px;
@@ -70,19 +93,40 @@
   font-size: 2rem;
   margin-right: 8px;
 }
+.arrowSee {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  margin-left: 4px;
+}
 
 .arrowVoir {
   color: rgb(0, 0, 0);
-  font-size: 0.5rem;
+  font-size: 1rem;
+  margin-left: 8px;
 }
 .textrow {
-  margin-right: 20px;
+  margin-right: 25px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
   align-content: center;
   /* background-color: blueviolet; */
+}
+.textall {
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: auto;
+  align-items: center;
+  align-content: center;
+  /* background-color: blueviolet; */
+  align-self: flex-end;
+}
+.textall h3 {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
 }
 .textContainer {
   position: absolute;
