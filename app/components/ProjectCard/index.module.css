@@ -1,0 +1,167 @@
+.container {
+  padding: 0rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
+  align-self: center;
+
+  width: 100%;
+  /* background-color: blue; */
+}
+.bigContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  width: 100%;
+  flex-wrap: wrap;
+  align-self: center;
+  /* background-color: rgb(53, 53, 110); */
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+.cardContainer {
+  position: relative;
+  width: 300px;
+  /* background-color: blue; */
+
+  height: 280px;
+  border-radius: 32px;
+  overflow: hidden;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+.imageContainer {
+  display: flex;
+  overflow: hidden;
+
+  justify-content: center;
+  align-items: center;
+  /* background-color: blue; */
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+
+  height: 100%;
+}
+.image {
+  width: 100%;
+  height: auto;
+  max-height: 280px;
+  max-width: 300px;
+}
+
+.circleButton {
+  position: absolute;
+  bottom: 14rem;
+  right: -1rem;
+  width: 60px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  border: 2px solid rgb(5, 24, 197, 0.5);
+  box-shadow: 0px 2px 6px rgba(5, 24, 197, 0.2);
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.cardContainer:hover .circleButton {
+  opacity: 1;
+  transform: translateY(0);
+}
+.cardContainer:hover .textContainer {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.arrow {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  margin-right: 8px;
+}
+.arrowSee {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  margin-left: 4px;
+}
+
+.arrowVoir {
+  color: rgb(0, 0, 0);
+  font-size: 1rem;
+  margin-left: 8px;
+}
+.textrow {
+  margin-right: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+  /* background-color: blueviolet; */
+}
+.textall {
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: auto;
+  align-items: center;
+  align-content: center;
+  /* background-color: blueviolet; */
+  align-self: flex-end;
+}
+.textall h3 {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+.textContainer {
+  position: absolute;
+  bottom: 0;
+
+  left: 0;
+  width: 90%;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.3);
+  color: rgb(0, 0, 0);
+  text-align: left;
+  transform: translateY(10px);
+
+  opacity: 0;
+
+  backdrop-filter: blur(5px);
+}
+
+.textOverlay h3 {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.textOverlay p {
+  font-size: 0.875rem;
+  padding: 0 0 0 0;
+
+  margin: 0 0 0 0;
+}
+.textContainer p {
+  padding: 0 4px 0 0;
+}
+.h3 {
+  margin: 0 0 0 0;
+}
