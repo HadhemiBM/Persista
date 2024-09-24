@@ -1,7 +1,9 @@
 import styles from "./index.module.css";
 import Image from "next/image";
-
-import medi from "../../assets/Frame2.png";
+import spr01 from "../../assets/spr01.png";
+import pepolls from "../../assets/pepolls.png";
+import alifa from "../../assets/alifa.png";
+import twirex from "../../assets/twirex.png";
 
 const ProjectCard = () => {
   return (
@@ -15,10 +17,9 @@ const ProjectCard = () => {
         <div className={styles.column}>
           <div className={styles.cardContainer}>
             <div className={styles.imageContainer}>
-              <Image src={medi} alt="bed" className={styles.image} />
+              <Image src={alifa} alt="bed" className={styles.image} />
             </div>
 
-      
             <div className={styles.textContainer}>
               <h3>Mobile application</h3>
               <p>A Tunisian application dedicated to animal services.</p>
@@ -35,16 +36,14 @@ const ProjectCard = () => {
         <div className={styles.column}>
           <div className={styles.cardContainer}>
             <div className={styles.imageContainer}>
-              <Image src={medi} alt="bed" className={styles.image} />
+              <Image src={spr01} alt="bed" className={styles.image} />
             </div>
-
-           
 
             <div className={styles.textContainer}>
               <h3>Web application</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Laudantium illum ex eos voluptates.
+                Sports management platform designed to help clubs and academies
+                streamline member and activity management.
               </p>
               <div className={styles.textrow}>
                 <h5>Details</h5>
@@ -53,19 +52,17 @@ const ProjectCard = () => {
               </div>
             </div>
           </div>
-          <h3>SPRO1</h3>
+          <h3>SPR01</h3>
         </div>
         <div className={styles.column}>
           <div className={styles.cardContainer}>
             <div className={styles.imageContainer}>
-              <Image src={medi} alt="bed" className={styles.image} />
+              <Image src={twirex} alt="bed" className={styles.image} />
             </div>
-
-        
 
             <div className={styles.textContainer}>
               <h3>Web application</h3>
-              <p>An innovative online platform for traders and experts.</p>
+              <p>The Ultimate One-Stop Shop for Traders and Experts.</p>
               <div className={styles.textrow}>
                 <h5>Details</h5>
 
@@ -78,10 +75,8 @@ const ProjectCard = () => {
         <div className={styles.column}>
           <div className={styles.cardContainer}>
             <div className={styles.imageContainer}>
-              <Image src={medi} alt="bed" className={styles.image} />
+              <Image src={pepolls} alt="bed" className={styles.image} />
             </div>
-
-         
 
             <div className={styles.textContainer}>
               <h3>Mobile application</h3>
