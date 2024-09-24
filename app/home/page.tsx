@@ -15,7 +15,7 @@ import EllipseOrange from "../assets/EllipseOrange.png";
 import ServiceCard from "../components/ServiceCard";
 import { services, Service } from "../data/servicesData";
 import PartnersCard from "../components/PartnersCard";
-import Productard from "../components/ProjectCard";
+
 import ProjectCard from "../components/ProjectCard";
 export default function Home() {
   return (
