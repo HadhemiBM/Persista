@@ -1,4 +1,4 @@
-"use client"; // Indique que ce composant est client-side
+"use client"; 
 
 import Link from "next/link";
 import React, { useState } from "react";
